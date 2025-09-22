@@ -52,5 +52,5 @@ Your feedback and collaboration are always welcome!
 ---
 
 ## 🤝 Connect with Me  
-- GitHub: [Abdul Razzaq](https://github.com/abdulrazzaq-analyst)  
-- LinkedIn: [Abdul Razzaq](https://www.linkedin.com/in/abdul-razzaq-095aab2b6)
+- GitHub: [Aneesa Satti](https://github.com/Aneesa281)  
+- LinkedIn: [Aneesa Satti](www.linkedin.com/in/aneesa-satti-237601368)
