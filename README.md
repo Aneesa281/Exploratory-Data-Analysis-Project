@@ -1,64 +1,49 @@
-# 📊 Exploratory Data Analysis of Netflix Movies
+# COVID-19 Exploratory Data Analysis (EDA)
 
-This project performs **Exploratory Data Analysis (EDA)** on a Netflix Movies dataset (sourced from Kaggle) containing **16 years of records**.  
-It explores trends in **genres, ratings, countries, languages, directors, budgets, revenues, and popularity** to uncover meaningful insights.
+## Project Overview
+This project involves an **Exploratory Data Analysis (EDA)** of COVID-19 data collected from the **World Health Organization (WHO)** website. The analysis aims to uncover patterns, trends, and insights about COVID-19 cases and deaths globally, across different countries and regions.
 
----
+The dataset contains daily reported COVID-19 cases and deaths from **4th January 2020 to 3rd August 2025**.
 
-## 📂 Dataset
-- **Source:** Kaggle  
-- **Size:** ~16,000 movies (2010–2025)  
-- **Features include:**
-  - Title, Director, Cast
-  - Release Year, Country, Language
-  - Genres, Rating, Popularity
-  - Budget, Revenue, Profit (calculated)
+## Dataset
+The dataset includes the following columns:
 
----
+- `Date_reported`: The date of reporting
+- `Country`: Name of the country
+- `WHO_region`: WHO designated region
+- `New_cases`: New COVID-19 cases reported
+- `Cumulative_cases`: Total cases reported till date
+- `New_deaths`: New COVID-19 deaths reported
+- `Cumulative_deaths`: Total deaths reported till date
 
-## 🎯 Objectives
-- Identify top-performing **genres, countries, and directors**.
-- Analyze **budget vs revenue** distribution and profitability.
-- Study **global popularity & rating trends**.
-- Highlight factors that drive **audience engagement and box office success**.
+> **Note:** Some countries have never reported COVID-19 cases or deaths.
 
----
+## Objective
+The main objectives of this EDA are:
 
-## 🛠️ Tech Stack
-- **Python**
-- **Libraries:**
-  - `numpy`, `pandas` → Data cleaning & preprocessing  
-  - `matplotlib`, `seaborn` → Data visualization  
+1. Identify countries and regions most affected by COVID-19.
+2. Analyze trends in cases and deaths over time.
+3. Compare death ratios among different WHO regions.
+4. Highlight countries with no reported COVID-19 cases or deaths.
+5. Visualize insights through graphs like line plots, bar plots, pie charts, and heatmaps.
 
----
+## Key Insights
+- The **USA** recorded the highest number of COVID-19 cases and deaths.
+- **Europe** reported the most cases regionally, while the **Americas** accounted for the highest deaths.
+- Several countries have never reported any COVID-19 cases or deaths.
+- Global death ratios vary significantly across WHO regions.
 
-## 🔑 Key Insights
-- **Genres:** Drama, Comedy, and Thriller dominate by count; Animation & History score the best average ratings.  
-- **Countries:** USA leads production (>6,000 movies), while China has the highest avg. budget, revenue & profit.  
-- **Languages:** English makes up ~60% of movies; Japanese films top average ratings; Chinese movies lead in avg. profit.  
-- **Directors:**  
-  - *Most movies directed:* Tyler Perry  
-  - *Highest avg. rating:* Christopher Nolan  
-  - *Most profitable:* Christopher Nolan (~$600M per movie).  
-- **Trends:** Majority of movies have ratings between **5–7**, and only a few become “super-hits.”  
-- **Financials:** Bigger budgets strongly correlate with higher revenue (0.75 correlation).  
+## Tools & Libraries
+- Python (Pandas, NumPy)
+- Matplotlib & Seaborn (Data Visualization)
+- Jupyter Notebook (for analysis and reporting)
 
----
-
-## 📈 Visualizations
-The notebook includes:
-- Distribution plots of **ratings, popularity, budget & revenue**  
-- Heatmaps for correlation analysis  
-- Genre, country, and language comparisons  
-- Director-based profitability and rating analysis  
-
----
-
-## ✅ Conclusion
-Netflix’s catalog:
-- Is **dominated by US productions** and **English-language films**.  
-- Contains mostly **average-rated, moderately popular movies**, but a few blockbusters drive massive profits.  
-- Balances **independent films** with **big-budget releases**, ensuring both wide reach and niche engagement.  
+## Insights & Visualizations
+- Sales trends over publishing years
+- Top genres and their contribution to sales
+- Distribution of author ratings and their effect on sales
+- Publisher-wise revenue comparison
+- Language-wise sales segmentation
 
 ---
 
@@ -71,8 +56,4 @@ Your feedback and collaboration are always welcome!
 ## 🤝 Connect with Me  
 - GitHub: [Abdul Razzaq](https://github.com/abdulrazzaq-analyst)  
 - LinkedIn: [Abdul Razzaq](https://www.linkedin.com/in/abdul-razzaq-095aab2b6)
-
-
-
-
 
